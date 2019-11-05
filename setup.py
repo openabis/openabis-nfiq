@@ -11,5 +11,8 @@ setup(
     description='OpenAbis\' integration plugin for NFIQ',
     install_requires=[
         'pillow==6.2.1'
-    ]
+    ],
+    package_data={
+        '': ['nfiq'],
+    }
 )

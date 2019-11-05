@@ -1,11 +1,25 @@
-# OpenAbis-NFIQ
+# OpenABIS NFIQ Plugin
 
-OpenAbis' plugin for NIST Finger Image Quality (NFIQ)
+OpenABIS' plugin for NIST Finger Image Quality (NFIQ)
 
-**Installation**
+##Installation
 
-Pipenv
+**Pipenv**
 ```
-pipenv install -e git+https://github.com/newlogic42/openabis-nfiq.git@master#egg=openabis_nfiq
+pipenv install git+https://github.com/openabis/openabis-nfiq.git@master#egg=openabis_nfiq
 
 ```
+
+**Pip**
+```
+pip install git+https://github.com/openabis/openabis-nfiq.git@master
+
+```
+
+## Usage
+`NFIQPlugin` requires `config` parameters that includes environment configurations:
+
+```text
+DEFAULT_FINGERPRINT_DPI (int) - fingerprint dpi, default is 0
+```
+
