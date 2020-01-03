@@ -1,0 +1,2 @@
+include openabis_nfiq/nfiq
+include openabis_nfiq/__init__.py
