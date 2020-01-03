@@ -12,5 +12,8 @@ setup(
     include_package_data=True,
     install_requires=[
         'pillow==6.2.1'
-    ]
+    ],
+    package_data={
+        '': ['nfiq'],
+    }
 )
